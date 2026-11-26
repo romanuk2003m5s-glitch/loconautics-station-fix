@@ -3,6 +3,6 @@
   "minVersion": "0.8",
   "package": "com.roma.kreiatlocofix.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": ["TrainStationsMixin"],
+  "mixins": ["TrainStationsMixin", "TrainSteeringMixin", "SableTrainDriverMixin"],
   "injectors": { "defaultRequire": 1 }
 }
